@@ -1,0 +1,19 @@
+* {
+    font-family: sans-serif;
+}
+
+img {
+    display: flex;
+}
+
+body {
+    background: rgb(241, 245, 41);
+}
+
+p {
+    color: rgb(233, 5, 5);
+}
+
+h1 {
+    color: rgb(233, 5, 5);
+}

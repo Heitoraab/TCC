@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> TCC </title>
+        <link rel="stylesheet" href="style2.css">
+    </head>
+
+    <body>
+        
+        <h1> Preencha o com seus dados para proseguirmos </h1>
+
+        <div class="inicio">
+
+            <input type="text" placeholder="Digite seu nome..." minlength="4" maxlength="80" >
+            <input type="text" placeholder="exemplo@email.com" minlength="4" maxlength="100" >
+            <input type="text" placeholder="Crie uma senha" minlength="5" maxlength="80">
+            <input type="number" placeholder="Sua idade" min="0" max="100" >
+        </div>
+
+        <br><br>
+
+        <div class="meio">
+            <label> Data de Nacimento </label>
+        <input type="date">
+
+        <br><br>
+
+            <h2> Qual genero você prefere </h2>
+
+            <label for="Romance"> Romance: </label>
+            <input type="radio" name="game" id="Romance" >
+    
+            <label for="Comedia"> Comedia: </label>
+            <input type="radio" name="game" id="Comedia" >
+
+            <label for="Terror"> Terror: </label>
+            <input type="radio" name="game" id="Terror" >
+
+            <label for="Outros"> Outros: </label>
+            <input type="radio" name="game" id="Outros" >
+
+        </div>
+
+        <br><br>
+
+        <button onclick="AlertarUsuario();">
+            Finalizar
+        </button>
+
+        <script>
+
+        function AlertarUsuario() {
+
+            alert("Parabéns, você terminou. Obrigado pela atenção")
+
+        }
+
+        </script>
+        
+    </body>
+
+</html>
